@@ -1,8 +1,8 @@
 {
-	"manifest_version": 2,
-	"name": "Caaaarbs",
-	"version": "1.0",
-	"description": "Paleo's best friend.",
+	"manifest_version": 1,
+	"name": "Migrants to people",
+	"version": "0.1",
+	"description": "An extension to re-humanise web content about migration.",
 	"icons": { "16": "images/carbs16.png",
            "48": "images/carbs48.png",
           "128": "images/carbs128.png" },
