@@ -1,4 +1,4 @@
-//credit goes to Steven Frank of Cloud to Butt (https://github.com/panicsteve/cloud-to-butt/)
+//Another fork of the original Cloud to Butt extension (https://github.com/panicsteve/cloud-to-butt/)
 
 walk(document.body);
 
@@ -33,12 +33,12 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bpasta\b/g, "caaaaarbs");
-	v = v.replace(/\bbread\b/g, "caaaaarbs");
-	v = v.replace(/\bBread\b/g, "Caaaaarbs");
-	v = v.replace(/\bScones\b/g, "Caaaaarbs");
-	v = v.replace(/\bBuns\b/g, "Caaaaarbs");
-	v = v.replace(/\bspaghetti\b/g, "caaaaarbs");
+	v = v.replace(/\bmigrant\b/g, "person");
+	v = v.replace(/\bmigrants\b/g, "people");
+	v = v.replace(/\bMigrant\b/g, "Person");
+	v = v.replace(/\bMigrants\b/g, "People");
+	v = v.replace(/\bflood of migrants\b/g, "people seeking safety or a better life");
+	v = v.replace(/\bFlood of migrants\b/g, "People seeking safety");
 	
 	textNode.nodeValue = v;
 }
